@@ -3,6 +3,8 @@ def isPalindrome(number):
 
 def largestPalidrome(min,max):
     results = []
+    
+
     for i in range(min,max):
         for j in range(min,max):
             product = i * j
